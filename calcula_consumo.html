@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULAR CONSUMO</title>
+</head>
+<body>
+    <h3>Álcool ou Gasolina</h3>
+    
+<script>
+    function pulaLinha() {
+
+        document.write("<br>");
+
+    }
+
+    function mostra(txt) {
+
+        document.write(txt);
+        pulaLinha();
+    }
+
+    var tanqueCarro = 40;
+
+    var caminhoGasolina = 480;
+    var consumoGasolina = caminhoGasolina / tanqueCarro;
+
+    var caminhoAlcool = 300;
+    var consumoAlcool = caminhoAlcool / tanqueCarro;
+
+    mostra("O consumo do veículo utilizando gasolina é de " + consumoGasolina);
+
+    mostra("O consumo do veículo utilizando álcool é de " + consumoAlcool);
+
+
+
+
+</script>
+
+
+</body>
+</html>
